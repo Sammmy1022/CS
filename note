@@ -1,1 +1,11 @@
-test
+
+
+
+壓縮：xz -z FileName○
+解壓縮：xz -d FileName.xz
+tar.gz
+壓縮：tar -zcvf FileName.tar.gz DirName
+解壓縮：tar -zxvf FileName.tar.gz
+
+如何用教的指令印出new.txt 第11~20行的內容？
+tail -n +10 new.txt | head -n 10
